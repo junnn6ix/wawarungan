@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UnCaffeIn</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css" integrity="sha512-ajhUYg8JAATDFejqbeN7KbF2zyPbbqz04dgOLyGcYEk/MJD3V+HJhJLKvJ2VVlqrr4PwHeGTTWxbI+8teA7snw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    
+    <!-- navbar start-->
+    <nav class="navbar"  data-aos="fade-up" data-aos-duration="500">
+        <a href="#" class="navbar-logo" data-aos="fade-right" data-aos-duration="700">
+            <img src="img/logo.png" alt="">
+        </a>
+        <div class="navbar-nav" data-aos="fade-left" data-aos-duration="700">
+            <a href="#">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Kontak</a>
+        </div>
+        <div class="navbar-extra" data-aos="fade-left" data-aos-duration="700">
+            
+            <a href="#" id="search-button">
+                <i data-feather="search" style="color: white;"></i>
+            </a>
+           
+            <a href="#" id="shopping-cart-button">
+                <i data-feather="shopping-cart" style="color: white;"></i>
+            </a>
+            
+            <a href="#" id="hamburger-menu">
+                <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11 16.745c0-.414.336-.75.75-.75h9.5c.414 0 .75.336.75.75s-.336.75-.75.75h-9.5c-.414 0-.75-.336-.75-.75zm-9-5c0-.414.336-.75.75-.75h18.5c.414 0 .75.336.75.75s-.336.75-.75.75h-18.5c-.414 0-.75-.336-.75-.75zm4-5c0-.414.336-.75.75-.75h14.5c.414 0 .75.336.75.75s-.336.75-.75.75h-14.5c-.414 0-.75-.336-.75-.75z" fill-rule="nonzero"/></svg>
+            </a>
+        </div>
+        
+        <!--search form start-->
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search...">
+            <label for="search-box">
+                <i data-feather="search"></i>
+            </label>
+        </div>
+        <!-- search form end -->
+        
+        <!-- shopping cart -->
+        <div class="shopping-cart">
+            <div class="cart-item">
+                <img src="https://source.unsplash.com/800x800?less-sugar-coffee" alt="">
+                <div class="item-detail">
+                    <h3>Product 1</h3>
+                    <div class="item-price">IDR 32K</div>
+                </div>
+                <div class="bg-remove-item">
+                    <i data-feather="trash-2" class="remove-item"></i>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="https://source.unsplash.com/800x800?less-sugar-coffee" alt="">
+                <div class="item-detail">
+                    <h3>Product 1</h3>
+                    <div class="item-price">IDR 32K</div>
+                </div>
+                <div class="bg-remove-item">
+                    <i data-feather="trash-2" class="remove-item"></i>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="https://source.unsplash.com/800x800?less-sugar-coffee" alt="">
+                <div class="item-detail">
+                    <h3>Product 1</h3>
+                    <div class="item-price">IDR 32K</div>
+                </div>
+                <div class="bg-remove-item">
+                    <i data-feather="trash-2" class="remove-item"></i>
+                </div>
+            </div>
+        </div>
+        <!-- shopping cart end -->
+        
+    </nav>
+    <!-- navbar end -->
+    
+    <!-- hero section start -->
+    <section class="hero" id="home" >
+        <main class="content" data-aos="fade-up" data-aos-duration="500">
+            <h1 data-aos="fade-up" data-aos-duration="700">Ngantuk? mending <span>Ngopi</span> yuk!</h1>
+            <p data-aos="fade-up" data-aos-duration="700">laborum elit labore velit id enim id sunt deserunt magna ex irure excepteur reprehenderit</p>
+            <a href="#" class="cta" data-aos="fade-up" data-aos-duration="700">Sok gera gelut!</a>
+        </main>
+    </section>
+    <!-- hero section end -->
+    
+    <!-- about section -->
+    <section id="about" class="about" data-aos="fade-up" data-aos-duration="500">
+        <h2 data-aos="fade-up" data-aos-duration="700">Tentang <span>Wawarungan</span></h2>
+        <div class="row" data-aos="fade-up" data-aos-duration="700">
+            <div class="about-img" data-aos="fade-up" data-aos-duration="500">
+                <img src="https://source.unsplash.com/500x400?coffee" alt="" data-aos="fade-up" data-aos-duration="500">
+            </div>
+            <div class="content" data-aos="fade-up" data-aos-duration="500">
+                <h3 data-aos="fade-up" data-aos-duration="700">Warung Bohongan</h3>
+                <p data-aos="fade-up" data-aos-duration="700">culpa voluptate pariatur nulla et tempor est excepteur reprehenderit enim amet nostrud commodo duis occaecat eu</p>
+            </div>
+            <div class="content" data-aos="fade-up" data-aos-duration="500">
+                <h3 data-aos="fade-up" data-aos-duration="700">Warung Bohongan</h3>
+                <p data-aos="fade-up" data-aos-duration="700">culpa voluptate pariatur nulla et tempor est excepteur reprehenderit enim amet nostrud commodo duis occaecat eu</p>
+            </div>
+            <div class="about-img">
+                <img src="https://source.unsplash.com/500x400?coffeeshop" alt="" data-aos="fade-up" data-aos-duration="500">
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+    
+    <!-- menu section -->
+    <section id="menu" class="menu">
+        <h2 data-aos="fade-up" data-aos-duration="700">Menu<span> Kami</span></h2>
+        <p data-aos="fade-up" data-aos-duration="700">laboris est tempor adipisicing mollit ea ullamco proident eiusmod cillum qui sunt magna nulla veniam non duis sit laboris amet
+        </p>
+        <div class="row" data-aos="fade-up" data-aos-duration="500">
+            <div class="menu-card" data-aos="fade-up" data-aos-duration="500">
+                <img src="https://source.unsplash.com/300x300?blackcoffee" alt="" class="menu-card-img" data-aos="fade-up" data-aos-duration="500">
+                <h3 class="menu-card-tittle" data-aos="fade-up" data-aos-duration="700">Black Coffee (kopi hideung)</h3>
+                <p class="menu-card-price" data-aos="fade-up" data-aos-duration="700">IDR 24000</p>
+            </div>
+            <div class="menu-card" data-aos="fade-up" data-aos-duration="500">
+                <img src="https://source.unsplash.com/300x300?coffe-milk" alt="" class="menu-card-img" data-aos="fade-up" data-aos-duration="500">
+                <h3 class="menu-card-tittle" data-aos="fade-up" data-aos-duration="700">Milk Coffee</h3>
+                <p class="menu-card-price" data-aos="fade-up" data-aos-duration="700">IDR 18000</p>
+            </div>
+            <div class="menu-card" data-aos="fade-up" data-aos-duration="500">
+                <img src="https://source.unsplash.com/300x300?matcha-latte" alt="" class="menu-card-img" data-aos="fade-up" data-aos-duration="500">
+                <h3 class="menu-card-tittle" data-aos="fade-up" data-aos-duration="700">Matcha Latte</h3>
+                <p class="menu-card-price" data-aos="fade-up" data-aos-duration="700">IDR 26000</p>
+            </div>
+            <div class="menu-card" data-aos="fade-up" data-aos-duration="500">
+                <img src="https://source.unsplash.com/300x300?icecoffee" alt="" class="menu-card-img" data-aos="fade-up" data-aos-duration="500">
+                <h3 class="menu-card-tittle" data-aos="fade-up" data-aos-duration="700">Ice Coffee</h3>
+                <p class="menu-card-price" data-aos="fade-up" data-aos-duration="700">IDR 28000</p>
+            </div>
+        </div>
+    </section>
+    <!-- menu section end -->
+    
+    <!-- products section -->
+    <section class="products" id="products" data-aos="fade-up" data-aos-duration="500">
+        <h2 data-aos="fade-up" data-aos-duration="700">Best <span>Seller</span></h2>
+        <p data-aos="fade-up" data-aos-duration="700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis minus itaque, ullam quisquam soluta pariatur.</p>
+        
+        <div class="row" data-aos="fade-up" data-aos-duration="500">
+            <div class="product-card" data-aos="fade-up" data-aos-duration="700">
+                <div class="product-icons" data-aos="fade-up" data-aos-duration="700">
+                    <a href="#">
+                        <i data-feather="shopping-cart" style="color: white;"></i>
+                    </a>
+                    <a href="#">
+                        <i class="item-detail-button" data-feather="eye" style="color: white"></i>
+                    </a>
+                </div>
+                <div class="product-img" data-aos="fade-up" data-aos-duration="700">
+                    <img src="https://source.unsplash.com/800x800?pancake" alt="product 1">
+                </div>
+                <div class="product-content" data-aos="fade-up" data-aos-duration="500">
+                    <h3 data-aos="fade-up" data-aos-duration="700">Gorengan</h3>
+                    <div class="product-stars" data-aos="fade-up" data-aos-duration="700">
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i data-feather="star" style="color: var(--primary);"></i>
+                    </div>
+                    <div class="product-price" data-aos="fade-up" data-aos-duration="700">IDR 39K <span>57K</span></div>
+                </div>
+            </div>
+            <div class="product-card" data-aos="fade-up" data-aos-duration="500">
+                <div class="product-icons" data-aos="fade-up" data-aos-duration="700">
+                    <a href="#">
+                        <i data-feather="shopping-cart" style="color: white;"></i>
+                    </a>
+                    <a href="#">
+                        <i class="item-detail-button" data-feather="eye" style="color: white"></i>
+                    </a>
+                </div>
+                <div class="product-img productImg" data-aos="fade-up" data-aos-duration="700">
+                    <img src="img/product1.jpg" alt="product 1" data-aos="fade-up" data-aos-duration="700">
+                </div>
+                <div class="product-content" data-aos="fade-up" data-aos-duration="500">
+                    <h3 data-aos="fade-up" data-aos-duration="700">Dragon fruit juice</h3>
+                    <div class="product-stars" data-aos="fade-up" data-aos-duration="700">
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                    </div>
+                    <div class="product-price" data-aos="fade-up" data-aos-duration="700">IDR 32K<span>45K</span></div>
+                </div>
+            </div>
+            <div class="product-card" data-aos="fade-up" data-aos-duration="500">
+                <div class="product-icons" data-aos="fade-up" data-aos-duration="700">
+                    <a href="#">
+                        <i data-feather="shopping-cart" style="color: white;"></i>
+                    </a>
+                    <a href="#">
+                        <i class="item-detail-button" data-feather="eye" style="color: white"></i>
+                    </a>
+                </div>
+                <div class="product-img" data-aos="fade-up" data-aos-duration="500">
+                    <img src="https://source.unsplash.com/800x800?beer" alt="product 1" data-aos="fade-up" data-aos-duration="700">
+                </div>
+                <div class="product-content" data-aos="fade-up" data-aos-duration="500">
+                    <h3 data-aos="fade-up" data-aos-duration="700">Coke Beer</h3>
+                    <div class="product-stars" data-aos="fade-up" data-aos-duration="700">
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                    </div>
+                    <div class="product-price" data-aos="fade-up" data-aos-duration="700">IDR 99K<span>127K</span></div>
+                </div>
+            </div>
+            <div class="product-card" data-aos="fade-up" data-aos-duration="500">
+                <div class="product-icons" data-aos="fade-up" data-aos-duration="700">
+                    <a href="#">
+                        <i data-feather="shopping-cart" style="color: white;"></i>
+                    </a>
+                    <a href="#">
+                        <i class="item-detail-button" data-feather="eye" style="color: white"></i>
+                    </a>
+                </div>
+                <div class="product-img" data-aos="fade-up" data-aos-duration="500">
+                    <img src="https://source.unsplash.com/800x800?Balinese wine" alt="product 1" data-aos="fade-up" data-aos-duration="700">
+                </div>
+                <div class="product-content" data-aos="fade-up" data-aos-duration="500">
+                    <h3 data-aos="fade-up" data-aos-duration="700">Bali's Arak</h3>
+                    <div class="product-stars" data-aos="fade-up" data-aos-duration="700">
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i data-feather="star" style="color: var(--primary);"></i>
+                    </div>
+                    <div class="product-price" data-aos="fade-up" data-aos-duration="700">IDR 65K<span>85K</span></div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- products section end -->
+    
+    <!-- contact section -->
+    <section id="contact" class="contact" data-aos="fade-up" data-aos-duration="500">
+        <h2 data-aos="fade-up" data-aos-duration="700">Kontak<span> Kami</span></h2>
+        <p data-aos="fade-up" data-aos-duration="700">consectetur reprehenderit exercitation sunt reprehenderit proident qui exercitation qui pariatur incididunt tempor adipisicing qui laboris elit ullamco deserunt aliqua do aliqua ad eu dolor</p>
+        <div class="row" data-aos="fade-up" data-aos-duration="700">
+           <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253244.73754436802!2d108.06792064029631!3d-7.359611305741227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f56e5924c576f%3A0x301e8f1fc2f2500!2sKota%20Tasikmalaya%2C%20Kab.%20Tasikmalaya%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1700042334127!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           
+           <form action="" data-aos="fade-up" data-aos-duration="700">
+               <div class="input-group" data-aos-duration="700">
+                   <i data-feather="user"></i>
+                   <input type="text" placeholder="nama">
+               </div>
+               <div class="input-group" data-aos="fade-up" data-aos-duration="700">
+                   <i data-feather="mail"></i>
+                   <input type="text" placeholder="email">
+               </div>
+               <div class="input-group" data-aos="fade-up" data-aos-duration="700">
+                   <i data-feather="phone"></i>
+                   <input type="text" placeholder="phone">
+               </div>
+               <button type="submit" class="btn" data-aos="fade-up" data-aos-duration="700">Kirim Pesan</button>
+           </form>
+           
+        </div>
+    </section>
+    <!-- contact section end -->
+    
+    <!-- footer -->
+    <footer data-aos="fade-up" data-aos-duration="500">
+        <div class="logo">
+            <a href="#" class="navbar-logo" data-aos="fade-right" data-aos-duration="700">
+                <img src="img/logo.png" alt="" width="150px">
+            </a>
+        </div>
+        <div class="partner-icons" data-aos="fade-up" data-aos-duration="500">
+            <a href="#" data-aos="fade-up" data-aos-duration="700">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Gojek_logo_2022.svg" alt="" color="var(--primary)">
+            </a>
+            <a href="#" data-aos="fade-up" data-aos-duration="700" style="width: 100px;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Grab_Logo.svg" alt="" color="var(--primary)">
+            </a>
+        </div>
+        <div class="socials">
+            <a href=""><i data-feather="instagram"></i></a>
+            <a href=""><i data-feather="twitter"></i></a>
+            <a href=""><i data-feather="facebook"></i></a>
+        </div>
+        
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </div>
+        
+        <div class="credit">
+            <p>Created by <a href="">Neckjs</a>. | &copy; 2023</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+    
+    <!-- modal box -->
+    <div class="modal" id="item-detail-modal">
+        <div class="modal-container">
+            <a href="#"><i class="close-icon" data-feather="x"></i></a>
+            <div class="modal-content">
+                <img src="https://source.unsplash.com/800x800?beer" alt="product 1">
+                <div class="product-content">
+                    <h3>Product Name</h3>
+                    <p>dolor veniam occaecat pariatur occaecat ullamco in amet tempor velit ut mollit laborum aliquip adipisicing ullamco culpa non fugiat occaecat ipsum et irure ea minim consequat commodo occaecat incididunt</p>
+                    <div class="product-stars">
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                        <i class="star-full" data-feather="star" style="color: var(--primary);"></i>
+                    </div>
+                    <div class="product-price">IDR 32K<span>45K</span></div>
+                    <a href="#"><i data-feather="shopping-cart"></i><span> Add to Cart</span></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal box end -->
+    
+    <!-- whatsapp button -->
+    <div class="float-btn" data-aos="fade-up" data-aos-duration="100">
+        <a href="https://wa.me/+6281234567890" data-aos="fade-up" data-aos-duration="1000">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        </a>
+    </div>
+    
+<script src="script/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+      AOS.init();
+      feather.replace();
+</script>
+</body>
+</html>
