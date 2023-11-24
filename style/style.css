@@ -499,8 +499,14 @@ body {
     border: 1px solid var(--primary);
 }
 
+.products .product-img:hover img {
+    transform: scale(1.2);
+    transition: .3s;
+}
+
 .products .product-img {
     padding: 1rem 0;
+    overflow: hidden;
 }
 
 .products .product-img img {
