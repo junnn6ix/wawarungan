@@ -128,7 +128,8 @@ body {
 }
 
 .navbar-extra {
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 .navbar .navbar-extra a {
