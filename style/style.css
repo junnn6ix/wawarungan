@@ -103,18 +103,18 @@ body {
     color: var(--primary);
 }*/
 
-.navbar-extra .navbar-nav a {
+.navbar-extra a {
     color: #fff;
     display: inline-block;
     font-size: 1.2rem;
     margin: 0 1rem;
 }
 
-.navbar-extra .navbar-nav a:hover {
+.navbar-extra a:hover {
     color: var(--primary);
 }
 
-.navbar-extra .navbar-nav a::after {
+.navbar-extra a::after {
     content: '';
     display: block;
     padding-bottom: .5rem;
@@ -123,7 +123,7 @@ body {
     transition: .2s linear;
 }
 
-.navbar-extra .navbar-nav a:hover::after {
+.navbar-extra a:hover::after {
     transform: scaleX(.5);
 }
 
