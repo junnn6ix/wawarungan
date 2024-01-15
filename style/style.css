@@ -779,7 +779,7 @@ footer .links a {
         display: inline-block;
     }
     
-    .navbar .navbar-nav {
+    .navbar .navMenu {
         position: absolute;
         top: 100%;
         right: -100%;
@@ -801,7 +801,7 @@ footer .links a {
         right: 0;
     }
     
-    .navbar .navbar-nav a {
+    .navbar .navMenu {
         color: #fff;
         display: block;
         margin: 1.5rem;
@@ -809,11 +809,11 @@ footer .links a {
         font-size: 2rem;
     }
     
-    .navbar .navbar-nav a::after {
+    .navbar .navMenu::after {
         transform-origin: 0 0;
     }
     
-    .navbar .navbar-nav a:hover::after {
+    .navbar .navMenu:hover::after {
         transform: scaleX(.2);
     }
     
